@@ -1,12 +1,17 @@
 #include <iostream>
 #include <string>
+#include "prompts.cpp"
 
 using namespace std;
 
 int main(){
-    cout << "hello git" << endl;
-    cout << "git is east " << endl;
-    cout << 1 + 2 << endl;
+    string feeling;
     cout << "How are you feeling?" << endl;
+    cout << "Do you feel happy, sad, mad, scared, stressed or grateful?" << endl;
+
+    cin >> feeling;
+    if(feeling == "happy"){
+        cout << "great!"
+    }
     return 0;
 }
