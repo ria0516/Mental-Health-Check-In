@@ -11,7 +11,7 @@ int main(){
 
     cin >> feeling;
     if(feeling == "happy"){
-        cout << "great!"
+        cout << "great!";
     }
     return 0;
 }
